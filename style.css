@@ -1,0 +1,208 @@
+.marktype2{
+    list-style-type: square;
+}
+
+.marktype3{
+    list-style-type:none
+}
+
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.timetable1{
+    background-color: #333333;
+    width: 860px;
+    border-radius: 10px;
+}
+
+.timetable{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+}
+
+.day{
+    width: 230px;
+    border: 7px solid #4fafbc;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(124, 188, 205);
+}
+
+.Day1h{
+    margin-top: 0;
+    color: rgb(255, 255, 255);
+}
+
+.listDay1{
+    list-style-type:decimal
+}
+
+.pDay1{
+    margin: 5px 0;
+    color: #333333;
+}
+
+
+.day2{
+    width: 230px;
+    border: 7px solid #4f68bc;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(124, 143, 205);
+}
+.day3{
+    width: 230px;
+    border: 7px solid #7e4fbc;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(175, 124, 205);
+}
+.day4{
+    width: 230px;
+    border: 7px solid #a34fbc;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(196, 124, 205);
+}
+.day5{
+    width: 230px;
+    border: 7px solid #bc4f92;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(205, 124, 174);
+}
+
+
+#interactiveButton{
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ffe135;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#interactiveButton:hover{
+    background-color: #ffa600;
+}
+
+
+#displayText{
+    width: 300px;
+}
+
+
+
+
+#buyButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #buyButton:hover {
+    background-color: #218c53;
+  }
+  
+  #buyButton:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+  }
+
+#buyButton1250 {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #buyButton1250:hover {
+    background-color: #218c53;
+  }
+  
+  #buyButton1250:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+  }
+
+#buyButton2600 {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #buyButton2600:hover {
+    background-color: #218c53;
+  }
+  
+  #buyButton2600:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+  }
+
+  #autoClickerButton {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #8e27ae;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #autoClickerButton:hover {
+    background-color: #85218c;
+  }
+  
+  #autoClickerButton:disabled {
+    background-color: #8b7c8e;
+    cursor: not-allowed;
+  }
+
+
+.clicker{
+    background-color: #3e4542;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    height: 400px;
+}
+
+#clickCounter{
+    background-color: #82b860;
+    border-radius: 3px;
+    width: 200px;
+    height: 25px;
+}
